@@ -1,0 +1,73 @@
+.main {
+  height: 100vh;
+  max-height: 100%;
+  background-color: #1f1f1f;
+}
+#video-grid {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.toolbarContainer {
+  height: 75px;
+  bottom: 0px !important;
+  position: absolute;
+  width: 100%;
+  background-color: #292929 !important;
+  color: white;
+}
+
+video {
+  object-fit: cover;
+}
+
+.card,
+.card-header {
+  background-color: #292929 !important;
+  color: white;
+  border: none !important;
+}
+
+.main__videos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#toolbar {
+  display: flex;
+}
+.main_Tools {
+  width: 100%;
+  justify-content: center;
+}
+
+.tool_item:hover,
+.tool_label:hover {
+  cursor: pointer;
+}
+
+.tool_item {
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.tool_label {
+  display: block;
+}
+
+.message_container{
+    height: calc(100% - 50px);
+    overflow-y: scroll;
+}
+
+.message{
+    list-style: none;
+}
+
+.unmute, .stopVideo{
+    color: red;
+}
